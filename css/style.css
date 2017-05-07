@@ -327,8 +327,10 @@ p {
           }
 
           .g_contenttext2 {
-            padding-bottom: 40px;
+           
           }
+
+          
       }
 
       @media screen and (max-width: 443px) {
