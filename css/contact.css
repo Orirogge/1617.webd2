@@ -1,92 +1,97 @@
-.titelkolom {
-    margin: auto;
+/******** Centered contact page ********/
+
+  .titelkolom {
+      margin: auto;
+      width: 50%;
+  }
+
+  .text {
+      margin: auto;
+      width: 50%;
+  }
+
+  .maps {
+  width: 100%;
+  height: 410px;
+  margin-bottom: 40px;
+}
+
+/******** Contact form ********/
+
+  input[type=text], select, textarea {
+    font-size: 1rem;
+    font-weight: lighter;
     width: 50%;
-}
+    padding: 12px;
+    border: 1px solid #95989A;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-left: 25%;
+    margin-right: 25%;
+    resize: vertical;
+  }
 
-.text {
-    margin: auto;
+  input[type=submit] {
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: black;
     width: 50%;
-}
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
 
-.detail {
-    max-height: 200px;
-    overflow: hidden;
-}
+  input[type=submit]:hover {
+    background-color: #49CC90;
+  }
 
-/* Contact */
+  #contact_action {
+    margin: 0 auto;
+  }
 
-input[type=text], select, textarea {
-  font-size: 1rem;
-  font-weight: lighter;
-  width: 50%;
-  padding: 12px;
-  border: 1px solid #95989A;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  margin-left: 25%;
-  margin-right: 25%;
-  resize: vertical;
-}
-
-input[type=submit] {
-  font-size: 1rem;
-  font-weight: bold;
-  background-color: black;
-  width: 50%;
-  color: white;
-  padding: 15px 20px;
-  border: none;
-  cursor: pointer;
-  margin-bottom: 50px;
-  margin-left: 25%;
-  margin-right: 25%;
-}
-
-input[type=submit]:hover {
-  background-color: #49CC90;
-}
-
-#contact_action {
-  margin: 0 auto;
-}
+/* Media Queries */
 
  @media screen and (max-width: 800px) {
-          .titelkolom {
-            margin-left: 40px;
-            width: 50%;
-}
 
-          .text {
-            margin-left: 40px;
-            width: 80%;
-}
+        .titelkolom {
+          margin-left: 40px;
+          width: 50%;
+        }
 
-input[type=text], select, textarea {
-  font-size: 1rem;
-  font-weight: lighter;
-  width: 75%;
-  padding: 12px;
-  border: 1px solid #95989A;
-  resize: vertical;
-  margin-left: 40px;
-  margin-right: 0px;
-}
+        .text {
+          margin-left: 40px;
+          width: 80%;
+        }
 
-input[type=submit] {
-  font-size: 1rem;
-  font-weight: bold;
-  background-color: black;
-  width: 75%;
-  color: white;
-  padding: 15px 20px;
-  border: none;
-  cursor: pointer;
-  margin-left: 40px;
-  margin-right: 0px;
-}
+        input[type=text], select, textarea {
+          font-size: 1rem;
+          font-weight: lighter;
+          width: 75%;
+          padding: 12px;
+          border: 1px solid #95989A;
+          resize: vertical;
+          margin-left: 40px;
+          margin-right: 0px;
+        }
 
-input[type=submit]:hover {
-  background-color: #49CC90;
-}
+        input[type=submit] {
+          font-size: 1rem;
+          font-weight: bold;
+          background-color: black;
+          width: 75%;
+          color: white;
+          padding: 15px 20px;
+          border: none;
+          cursor: pointer;
+          margin-left: 40px;
+          margin-right: 0px;
+        }
 
-      }
+        input[type=submit]:hover {
+          background-color: #49CC90;
+        }
+}
